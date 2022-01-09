@@ -6,6 +6,7 @@ let basket = [];
 
 function addItem(item){
   basket.push(item);
+  console.log('Added', item, 'to cart.');
   return true;
 }// end addItem
 
