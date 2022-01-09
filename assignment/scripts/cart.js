@@ -34,3 +34,4 @@ console.log(basket);
 
 
 listItems();
+console.log(`Basket is ${basket}`);
