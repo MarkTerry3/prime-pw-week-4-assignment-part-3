@@ -22,6 +22,14 @@ function empty(){
 }// end empty
 
 
-addItem();
+addItem('eggs');
+console.log(basket);
 listItems();
-empty();
+//empty();
+
+
+addItem('milk');
+console.log(basket);
+
+
+listItems();
