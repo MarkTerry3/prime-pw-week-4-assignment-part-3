@@ -6,4 +6,22 @@ let basket = [];
 
 function addItem(item){
   basket.push(item);
-}
+  return true;
+}// end addItem
+
+
+function listItems(){
+  for (let i = 0; i < basket.length; i++) {
+    console.log(basket[i]);
+  }
+}//end listItems
+
+
+function empty(){
+  basket = [];
+}// end empty
+
+
+addItem();
+listItems();
+empty();
