@@ -4,4 +4,6 @@ console.log('***** Cart Functions *****');
 
 let basket = [];
 
-function addItem();
+function addItem(item){
+  basket.push(item);
+}
